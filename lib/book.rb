@@ -1,4 +1,7 @@
 class Book
+
+  attr_reader :genre
+
   GENRES = []
 
   def initialize(genre)
