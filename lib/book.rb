@@ -1,6 +1,6 @@
 class Book
 
-  attr_reader :genre
+  attr_accessor :genre
 
   GENRES = []
 
